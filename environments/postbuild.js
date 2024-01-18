@@ -4,7 +4,7 @@ const path = require('path');
 
 // source and dest
 
-let dest = 'build/minificado';
+let dest = 'build/minificado/';
 let source = './build/css/'
 
 // find the styles css file
