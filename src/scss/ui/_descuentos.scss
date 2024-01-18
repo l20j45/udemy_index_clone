@@ -1,0 +1,14 @@
+@use '../utils/mixins';
+@use '../custom'as *;
+
+.descuentos {
+    .texto-descuento {
+        @include media-breakpoint-up(md) {
+            margin-bottom: -2rem;
+        }
+    }
+
+    .buscar {
+        border-radius: 0;
+    }
+}

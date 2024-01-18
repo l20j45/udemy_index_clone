@@ -1,0 +1,7 @@
+@use '../utils/mixins';
+@use '../custom'as *;
+
+.header{
+    position: relative;
+    z-index: 10;
+}

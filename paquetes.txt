@@ -1,0 +1,11 @@
+npm i --save-dev gulp gulp-purgecss gulp-rename bootstrap gulp-imagemin purgecss sass
+
+// Scripts
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar:sass": "sass src/scss:build/css --watch",
+    "purgar": "purgecss --css build/css/style.css --content index.html --output build/purgado",
+    "postbuild": "node environments/postbuild.js",
+    "minificarimagenes": "imagemin src/img/* --out-dir=build/img/",
+  },
